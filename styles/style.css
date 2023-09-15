@@ -25,7 +25,310 @@
 
 /****************/
 /* JOUW STYLING */
+body {
+	background-color: #111;
+	font-family: Avenir ,sans-serif;
+}
+
+
 /****************/
 
-/* jouw code */
+/* .first-box {
+	display: grid;
+	grid-template-columns: 1em 23em 1em;
+	grid-template-rows: 10% 10% 10% 10%;
+	background-color: white;
+}
+
+.item-winter {
+
+}
+
+.item-header{
+grid-row:3/4;
+grid-column:2/3;
+}
+
+.item-intro {
+grid-row:4/5;
+grid-column:2/3;
+} */
+
+.first-box {
+	display: grid;
+	grid-template-columns: 1.5em 1em 10em 9em 1.5em;
+	grid-template-rows: 16.7em 0.5em 1em 7em 5em 1em 1em 1em;
+}
+
+
+.white-box {
+background-color: white;
+grid-row: 3/9;
+grid-column: 2/5;
+padding: 1em;
+}
+
+.drop {
+	grid-row: 5/8;
+	grid-column: 1/6;
+	width: 100%;
+}
+
+.item-header {
+	font-size: 1.4em;
+	margin-bottom: 0.3em;
+}
+
+
+.item-intro {
+font-size: 0.9em;
+color: grey;
+margin-top: 0.4em;
+}
+
+.action-button-start {
+color: purple;
+grid-row: 6/7;
+grid-column: 3/4;
+border: none;
+background-color: white;
+letter-spacing: 0.15em;
+}
+
+.action-button-start {
+	color: purple;
+	grid-row: 6/7;
+	grid-column: 3/4;
+	border: none;
+	background-color: white;
+	letter-spacing: 0.15em;
+	}
+
+.tmmrw-winter { 
+	grid-row: 1/4;
+	grid-column: 1/6;
+	max-width: 100%
+}
+
+nav {
+	background-color: black;
+	height: 2.5em;
+	width: 100%;
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr;
+	grid-template-rows: 1fr 1fr 1fr 1fr ;
+	position: fixed;
+
+}
+
+.nav-li-1 {
+grid-row: 1/2;
+grid-column: 1/2;
+width: 1em;
+height: 1em;
+}
+
+.tml-logo {
+height: 2em;
+}
+
+.upcoming-events {
+	display:grid; 
+	grid-template-columns: 2em 5em 1.5em 1.5em 8em 3.5em 3.5em 1.5em;
+	grid-template-rows: 1.5em 2em 1em 1.8em 1.1em 0.2em 1em 1em 2em;
+}
+
+.title-upcoming {
+	grid-row: 2/3;
+	grid-column: 3/7;
+	color: white; 
+	font-size: 0.8em;
+	font-weight: lighter;
+	margin-top: 0.5em;
+	letter-spacing: 0.15em;
+
+}
+
+.amber {
+	grid-row: 4/8;
+	grid-column: 2/3;
+	width: 5em;
+}
+
+.amber-name {
+	grid-column: 4/7;
+	color: white;
+	grid-row: 4/5;
+	margin: 0;
+	font-weight:500;
+	font-size: 0.9em;
+}
+
+.calendar {
+grid-row: 5/6;
+grid-column: 4/5;
+width: 0.7em;
+}
+
+.icon-location {
+	width: 0.8em;
+	stroke: white;
+	grid-row: 7/8;
+	grid-column: 4;
+}
+
+.tekst-datum{
+	grid-row:5/6 ;
+	grid-column: 5/6;
+	color: grey;
+	font-size: 0.75em;
+	margin: 0;
+	font-weight: 700;
+	letter-spacing: 0.10em;
+
+
+}
+
+.tekst-locatie {
+	grid-row:7/8 ;
+	grid-column: 5/6;
+	color: grey;
+	font-size: 0.75em;
+	margin: 0;
+	font-weight: 700;
+	letter-spacing: 0.10em;
+}
+
+.tickets-amber {
+	color:white; 
+	grid-row:8;
+	grid-column:5;
+	font-size: 0.8em;
+	letter-spacing: 0.15em;
+}
+
+.info-amber {
+	color:white; 
+	grid-row:8;
+	grid-column:6;
+	font-size: 0.8em;
+	letter-spacing: 0.15em;
+}
+
+.more-knop {
+	padding: 0.8em 2em 0.8em 2em;
+	letter-spacing: 0.15em;
+}
+
+.knop-section {
+	display: flex; 
+	justify-content: center;
+	margin-top: 1em;
+	margin-bottom: 1.5em;
+}
+
+.links3 {
+	color:white; 
+	font-size: 0.45em;
+	font-weight: 10;
+	display: flex;
+	text-align: center;
+	letter-spacing: 0.3em;
+
+}
+
+.music-bar {
+	display: grid;
+	grid-template-columns: 1em 4.5em 1em 1em 10em 2.7em 3em;
+	grid-template-rows: 1.2em 1.3em 0.7em 1.2em 0.7em 0.8em 0.7em 1.2em ;
+}
+
+.david {
+grid-row: 2/8;
+grid-column: 2/4;
+width: 5.6em;
+z-index: 1;
+}
+
+.titel-david {
+	grid-row: 2/3;
+	grid-column: 5;
+	font-size: 0.9em;
+	font-weight: 500;
+	margin: 0;
+	margin-top: 0.4em;
+	color: white;
+
+}
+
+.tekst-david {
+	grid-row: 3/4;
+	grid-column: 5/7;
+	color: gray;
+	font-size: 1em;
+	font-weight: 800;
+}
+
+.david-name {
+	grid-row: 5/6;
+	grid-column:5/6 ;
+	color: grey;
+	font-size: 0.8em;
+	letter-spacing: 0.1em;
+}
+
+.play-button { 
+	grid-row: 2/8;
+	grid-column:2/4 ;
+	width: 5.5em;
+	z-index: 2;
+}
+
+.cards-section {
+	display: grid;
+	grid-template-columns: 0.5em 8em 1em 12em 2em;
+	grid-template-rows: 1.3em 1em 1em 3em 1.8em;
+
+}
+
+
+.cards1 {
+grid-column: 2;
+grid-row: 1/8;
+width: 8em;
+z-index: 1;
+}
+
+.titel-card1 {
+	grid-row:2;
+	grid-column:4 ;
+	font-size: 0.6em;
+	font-weight: 700;
+	color: grey;
+	letter-spacing: 0.1em;
+	z-index: 2;
+}
+
+.tekst-card1 {
+grid-row: 4/5;
+grid-column: 4;
+font-size: 0.9em;
+z-index: 2;
+margin: 0;
+}
+
+.white-box2 {
+	background-color: white;
+	grid-row:1/6 ;
+	grid-column: 3/5;
+	z-index: 1;
+}
+
+
+
+
+
+
+
+
 
