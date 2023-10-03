@@ -83,10 +83,10 @@ toggleButtons.forEach(function (button, index) {
 
         if (audio.paused) {
             audio.play();
-            playButton.src = "/images/pause-button.png"; // Change to a pause button image
+            playButton.src = "images/pause-button.png"; // Change to a pause button image
         } else {
             audio.pause();
-            playButton.src = "/images/play-button.png"; // Change back to the play button image
+            playButton.src = "images/play-button.png"; // Change back to the play button image
         }
     });
 });
