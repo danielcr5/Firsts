@@ -1,28 +1,18 @@
-# Procesverslag
-Markdown is een simpele manier om HTML te schrijven.  
-Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet).
-
-Nb. De standaardstructuur en de spartaanse opmaak van de README.md zijn helemaal prima. Het gaat om de inhoud van je procesverslag. Besteedt de tijd voor pracht en praal aan je website.
-
-Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard open zetten. Fijn om dat steeds voor de relevante stuk(ken) te doen.
-
-
-
-
+Dag Danny, 
+Welkom bij mijn README! Dit is een beetje mijn process, met veel ups and DOWNS met nadruk op <DOWNS>, maar ik heb het kunnen doen met genoeg doorzettingskracht! Ik had niet echt een idee hoe erg je wilt dat ik inging op dingen, dus ik heb voor de zekerheid aan de lange kant gezeten bij mijn beschrijvingen. Als dit niet de bedoeling was, forgive me :)
 
 ## Jij
-
 <details open>
-  <summary>uitwerken voor kick-off werkgroep</summary>
 
   ### Auteur:
-Daniel Carvalho
+Daniel Carvalho, ( met dikke credits naar Sep, Danny en student assintenten )
 
   #### Je startniveau:
 Blauw
 
   #### Je focus:
-Surface plane  
+Surface plane  :)
+
 
 </details>
 
@@ -31,21 +21,20 @@ Surface plane
 
 
 ## Je website
-
 <details open>
-  <summary> uitwerken voor kick-off werkgroep</summary>
 
   ### Je opdracht:
 https://www.tomorrowland.com/home/
 
   #### Screenshot(s) van de eerste pagina (small screen): 
-  hier de naam van de pagina  
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="omschrijving van de pagina">
+  Tommorowland 
+  <img src="images/www.tomorrowland2.png" width="375px" alt="Tommorowland website">
+   <img src="images/tml-page2.jpeg" width="375px" alt="Tommorowland website">
 
 
   #### Screenshot(s) van de tweede pagina (small screen):
 
-  hier de naam van de pagina  
+  
   <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="omschrijving van de pagina">
  
 </details>
@@ -58,7 +47,7 @@ https://www.tomorrowland.com/home/
   <summary>uitwerken na test in 2<sup>e</sup> werkgroep</summary>
 
   ### Bevindingen
-  Lijst met je bevindingen die in de test naar voren kwamen:
+  Ik ben erachter gekomen dat mijn site NOG niet heel toegangelijk is, ik kan er nog niet heel vloeiend doorheen tabben, ik ga dit even proberen aan te passen. Ik heb nog niet heel veel content, dus heb nog niet op heel veel kunnen testen, maar voor de rest ziet het er best goed uit. 
 
 </details>
 
@@ -69,18 +58,12 @@ https://www.tomorrowland.com/home/
 <details>
   <summary> uitwerken na afloop 3 <sup>e</sup> werkgroep</summary>
 
+Ik heb voor beiden een breakdownschets op papier gemaakt voordat we hier de opdracht voor kregen, had dit voor mezelf sloordig gedaan. Ik heb er wel eentje op figma gemaakt voor mijn eerste pagina, om te kijken hoe ik het ga doen met me grid etc.
+
   ### de hele pagina: 
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="breakdown van de hele pagina">
-
-  ### dynamisch deel (bijv menu): 
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="breakdown van een dynamisch deel">
-
-  ### wellicht nog een dynamisch deel (bijv filter): 
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="breakdown van nog een dynamisch deel">
+  <img src="images/breakdownschets.jpg" width="375px" alt="breakdown van de hele pagina">
 
 </details>
-
-
 
 
 
@@ -90,27 +73,23 @@ https://www.tomorrowland.com/home/
   <summary>uitwerken voor 1<sup>e</sup> voortgang</summary>
 
   ### Stand van zaken
-  hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
+Ik heb in de eerste week mij vooral nog gefocust op de oefen opdrachten, dit heb ik gedaan omdat ik voelde dat ik heel vol stof ben kwijt geraakt van vorig jaar. Dus om even op te frissen heb ik me meer gefocussed op oefenen. Ik ben begonnen met mijn HTML langzamer hand erin te verwerken. 
 
 
   ### Agenda voor meeting
-  samen met je groepje opstellen
+  Voor de meeting hebben we een studenten assistent naar onze code laten kijken
 
-  | student 1      | student 2          | student 3    | student 4        |
-  | ---            | ---                | ---          | ---              |
-  | dit bespreken  | en dit             | en ik dit    | en dan ik dat    |
-  | en dat ook nog | dit als er tijd is | nog een punt | dit wil ik zeker |
-  | ...            | ...                | ...          | ...              |
-
+  | Julia          | Quirine            | Jade         | Maya             |
+- Door Quirine haar feedback heb ik begrepen hoe ik lists kon stylen, dankjewel Quirine. 
 
   ### Verslag van meeting
-  hier na afloop snel de uitkomsten van de meeting vastleggen
+  In mijn eerste meeting heb ik samen met een assistent naar mijn code gekeken, ik heb hier echt enorm veel aan gehad. We hebben gekeken naar het structuur en hoe ik bepaalde elementen zoals sections in articles beter kon verwerken. 
 
-  - punt 1
-  - punt 2
-  - nog een punt
-  - ...
-
+  - Classes aanpassen
+  - Sections en divjes
+  - Begin Javascript
+  
+  In mijn eerste meeting keek ik vooral naar de structuur, of de aller eerste basis wel klopt. 
 </details>
 
 
@@ -120,35 +99,19 @@ https://www.tomorrowland.com/home/
 ## Voortgang 2 (week 3)
 
 <details>
-  <summary>uitwerken voor 2<sup>e</sup> voortgang</summary>
 
   ### Stand van zaken
-  hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
-
-
-  ### Agenda voor meeting
-  samen met je groepje opstellen
-
-  | student 1      | student 2          | student 3    | student 4        |
-  | ---            | ---                | ---          | ---              |
-  | dit bespreken  | en dit             | en ik dit    | en dan ik dat    |
-  | en dat ook nog | dit als er tijd is | nog een punt | dit wil ik zeker |
-  | ...            | ...                | ...          | ...              |
+  Ik heb nu meer styling, verwerkt in mijn code. Het begin komt nu samen te komen, alle imgs zijn verwerkt. Ik begin te merken dat ik meer moeite begin te krijgen met het semantisch houden van mijn code. De opdrachten gaan opzich wel goed. Ik heb in de les ondersteuning gekregen van medeleerlingen. 
 
 
   ### Verslag van meeting
-  hier na afloop snel de uitkomsten van de meeting vastleggen
+ In de tweede week hebben we gekeken naar mijn code en mijn classes, ik maak heel veel gebruik van classes, dus daar moest ik een verandering aan brengen. Na afloop ben ik compleet aan het werk gegaaan met het vervangen van alle classes in mijn code met pseudo classes. Hier liep ik meteen mee vast want het was echt te lastig. 
 
-  - punt 1
-  - punt 2
-  - nog een punt
-- ...
+  - Pseudo classes
+  - Articles sections
+
 
 </details>
-
-
-
-
 
 ## Toegankelijkheidstest 2/2 (week 4)
 
@@ -157,6 +120,8 @@ https://www.tomorrowland.com/home/
 
   ### Bevindingen
   Lijst met je bevindingen die in de test naar voren kwamen (geef ook aan wat er verbeterd is):
+  <img src="images/Screenshot 2023-10-04 at 23.37.20.png" width="375px" alt="bummer">
+
 
 </details>
 
@@ -170,26 +135,17 @@ https://www.tomorrowland.com/home/
   <summary>uitwerken voor 3<sup>e</sup> voortgang</summary>
 
   ### Stand van zaken
-  hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
-
+Ik loop enorm vast met javascript, ik snap er niet heel veel van, ook al heb ik alle oefeningen gevolgd. Ik ga echt stap voor stap verder, alleen het ritme moet omhoog om het te kunnen halen. Ik ben begonnen met mijn javascript voor mijn scroll animatie, en het is best wel lastig, maar ik heb er hoop in want ik begin begrijp ik wel volledig. Verder ben ik begonnen aan mijn tweede pagina en heb ik met ondersteuning mijn timeline kunnen maken. Dankjewel Sep en Mike, toppers! 
 
   ### Agenda voor meeting
-  samen met je groepje opstellen
-
-  | student 1      | student 2          | student 3    | student 4        |
-  | ---            | ---                | ---          | ---              |
-  | dit bespreken  | en dit             | en ik dit    | en dan ik dat    |
-  | en dat ook nog | dit als er tijd is | nog een punt | dit wil ik zeker |
-  | ...            | ...                | ...          | ...              |
-
+  Mijn groepje heeft zich helaas niet gehouden aan het schema, en we gingen individueel, ik heb wel heel veel feedback gekregen van andere mede studenten over hoe bepaalde erros uit mijn code kon halen, zoals in de doctype en in mijn header. 
 
   ### Verslag van meeting
-  hier na afloop snel de uitkomsten van de meeting vastleggen
-
-  - punt 1
-  - punt 2
-  - nog een punt
-  - ...
+In de derde meeting heb ik besproken hoe ik mijn 5 surface plane punten afmaak, Hierbij heb ik gekeken naar hoe ik de dark-mode ga toevoegen en hoe ik ervoor ga zorgen dat audio afspeelt op mijn site. 
+  - Dark-mode
+  - Javascript errors
+  - Party-mode
+  - Video
 
 </details>
 
@@ -200,22 +156,21 @@ https://www.tomorrowland.com/home/
 ## Eindgesprek (week 5)
 
 <details>
-  <summary>uitwerken voor eindgesprek</summary>
 
-  ### Je uitkomst - karakteristiek screenshots:
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="uitomst opdracht 1">
+  <summary> uitwerken voor eindgesprek </summary>
+
 
 
   ### Dit ging goed/Heb ik geleerd: 
-  Korte omschrijving met plaatjes
+  Ik ben enorm blij met mijn resultaat, ik had nooit gedacht in 100 jaar dat ik zo een site in elkaar zou kunnen zetten en het is me gewoon gelukt. Ik ben enorm blij, ik ben zo erg gegroeid in coderen het is echt niet normaal. In dit vak alleen, ik was begin dit vak de meest basic dingen van html vergeten en nu heb ik zulke complexe js geschreven. Ik ben enorm trots op mezelf en hoop dat ik iets goeds heb neergezet. Ik heb voor de laatste week tot 2/3 snachts gewerkt elke dag, om het af te kunnen krijgen. Ik heb heel lang vast gelopen met kleine dingen in het begin en het opfrissen van de code door opdrachten te maken, dat ik daarna pas goed kon beginnen. Dit is by far het meest intensieve vak dat ik op deze hele opleiding heb gehad, maar ik ben er dankbaar voor want het heeft alles uit me gehaald, inclusief tranen. 
 
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="top">
 
 
   ### Dit was lastig/Is niet gelukt:
-  Korte omschrijving met plaatjes
+Omdat ik heel lang stil stond bij een java script probleem in de laatste dagen, is het me niet gelukt om simpelweg mijn line-up pagina te javascripten. Ik heb er wel een easter egg in gestopt, was niet helemaal de bedoeling maar is alles wat de studenten assistent heeft kunnen doen (sorry ben de naam vergeten van die blonde jongen). 
 
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="bummer">
+  <img src="images/Screenshot 2023-10-05 at 00.09.48.png" width="375px" alt="bummer">
+
 </details>
 
 

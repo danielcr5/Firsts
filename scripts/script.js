@@ -9,8 +9,11 @@
   // DARK MODE
 // Onder selecteer ik het element met de class "dark-mode-toggle", knop voor dark mode.
 const darkModeToggle = document.querySelector('.dark-mode-toggle');
+const cards = document.querySelectorAll('.cards-section');
+const video = document.querySelector('.scroll-effect');
 
 // BRON: MDN
+// CHAT-GPT
 // BRON: HULP VAN SEP DUIKERSLOOT
 // Wanneer er op de donkere modus knop wordt geklikt, voeg ik of verwijder ik de class "dark-mode" van de body.
 // Dit schakelt tussen de donkere en lichte modus.
@@ -44,6 +47,7 @@ menuIcon.addEventListener('click', () => {
   menu.style.display = menu.style.display === 'block' ? 'none' : 'block';
 });
 
+// BRON: MDN
 // Hier zeg ik we dat ik wil weten wanneer ergens op de hele
 // webpagina wordt geklikt.
 document.addEventListener('click', (e) => {
@@ -113,16 +117,16 @@ function isInViewport(element) {
     );
   } 
 
-  // Function to handle scroll event
+
+
   function handleScroll() {
-    const cards = document.querySelectorAll('.cards-section, .page2');
-    const video = document.querySelector('.scroll-effect');
 
     cards.forEach((card) => {
-      if (isInViewport(card)) {
-        card.style.opacity = '1';
-        card.style.transform = 'translateY(0)';
-      }
+        if (isInViewport(card)) {
+          card.style.opacity = '1';
+          card.style.transform = 'translateY(0)';
+        }
+
     });
 
     if (isInViewport(video)) {
@@ -130,11 +134,12 @@ function isInViewport(element) {
       video.style.transform = 'translateY(0)';
     }
   }
+  console.log(cards);
+  if(cards.length > 0) {
+    window.addEventListener('scroll', handleScroll);
+  }
+  
 
-  // Add a scroll event listener to trigger the animation
-  window.addEventListener('scroll', handleScroll);
-
-  // Trigger the animation once on page load
   if (window.location.href === 'index.html') {
     handleScroll()
   };
@@ -186,3 +191,22 @@ stagesButton.addEventListener('click', () => {
 bigListSection.classList.add('hidden');
 
 }
+
+// JAVASCRIPT VOOR HET MENU
+// Ik selecteer het icoontje voor het menu.
+// JavaScript om het popup-menu te tonen/verbergen wanneer er op de hamburger-icoon wordt geklikt
+// Zo weet ik of het is geklikt of niet
+const hamburgerIcon = document.querySelector('.hamburger-icon');
+const popupMenu = document.querySelector('.popup-menu');
+const closeMenu = document.querySelector('.close-menu');
+
+hamburgerIcon.addEventListener('click', () => {
+    popupMenu.style.display = 'block';
+});
+
+closeMenu.addEventListener('click', () => {
+    popupMenu.style.display = 'none';
+});
+
+
+

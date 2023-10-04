@@ -34,21 +34,25 @@
 	width: 23em;
 	display: none;
 	list-style: none;
-	padding-top: 0.5em;
 	padding-left: 0.8em;
+	top: 2.9em;
 }
 
 hr {
 	border-color: rgb(229, 229, 229);
 	width: 22em;
-	filter:opacity(0.4);
+	filter: opacity(0.4);
 }
 
 
 
+.menu ul {
+	padding-left: 0em;
+}
 
 .menu li {
 	padding: 0.85em 2em 0.75em 1em;
+	list-style-type: none;
 }
 
 
@@ -129,24 +133,24 @@ hr {
 
 
 
-.social-icons img:last-child{
+.social-icons img:last-child {
 	width: 2em;
 }
 
 
-.social-icons ul{
+.social-icons ul {
 	display: flex;
 	list-style: none;
 	padding: 0;
 	padding-left: 0em;
-	
+
 }
 
-.social-icons li{
+.social-icons li {
 	padding-left: 0.5em;
 	padding-right: 0.5em;
-	padding-top:0.3em;
-	padding-bottom:0.3em ;
+	padding-top: 0.3em;
+	padding-bottom: 0.3em;
 }
 
 
@@ -184,8 +188,8 @@ hr {
 	--color-text-light-white: rgb(50, 50, 50);
 }
 
-@media (prefers-reduced-motion){
-	*{
+@media (prefers-reduced-motion) {
+	* {
 		transition: none !important;
 		animation: none !important;
 	}
@@ -194,26 +198,43 @@ hr {
 .party-mode {
 	/* Example: Add CSS animations, colors, or other visual effects */
 	animation: shake 0.2s infinite alternate;
-	background-color: #ff00ff; /* Change to your preferred color */
-    animation: flashingGradient 0.6s linear infinite;
+	background-color: #ff00ff;
+	/* Change to your preferred color */
+	animation: flashingGradient 0.6s linear infinite;
 }
 
 @keyframes flashingGradient {
-	0% { background: linear-gradient(45deg, #FF5733, #FFC300, #33FF57, #33B5FF); }
-	25% { background: linear-gradient(45deg, #33B5FF, #FF5733, #FFC300, #33FF57); }
-	50% { background: linear-gradient(45deg, #33FF57, #33B5FF, #FF5733, #FFC300); }
-	75% { background: linear-gradient(45deg, #FFC300, #33FF57, #33B5FF, #FF5733); }
-	100% { background: linear-gradient(45deg, #FF5733, #FFC300, #33B5FF, #33FF57); }
+	0% {
+		background: linear-gradient(45deg, #FF5733, #FFC300, #33FF57, #33B5FF);
+	}
+
+	25% {
+		background: linear-gradient(45deg, #33B5FF, #FF5733, #FFC300, #33FF57);
+	}
+
+	50% {
+		background: linear-gradient(45deg, #33FF57, #33B5FF, #FF5733, #FFC300);
+	}
+
+	75% {
+		background: linear-gradient(45deg, #FFC300, #33FF57, #33B5FF, #FF5733);
+	}
+
+	100% {
+		background: linear-gradient(45deg, #FF5733, #FFC300, #33B5FF, #33FF57);
+	}
 }
 
-  @keyframes shake {
+@keyframes shake {
 	0% {
-	  transform: translateX(0);
+		transform: translateX(0);
 	}
+
 	100% {
-	  transform: translateX(5px); /* Adjust the value for the desired shake effect */
+		transform: translateX(5px);
+		/* Adjust the value for the desired shake effect */
 	}
-  }
+}
 
 
 
@@ -235,7 +256,7 @@ hr {
   }
 */
 
-  
+
 
 
 /****************/
@@ -428,7 +449,7 @@ header button {
 }
 
 
-	/* animation: rainbow 2s linear infinite;
+/* animation: rainbow 2s linear infinite;
 
 }
 
@@ -482,22 +503,22 @@ main article.grid-groot hr {
 	width: 13em;
 	grid-row: 3/4;
 	grid-column: 1/8;
-    margin-right: 7em;
+	margin-right: 7em;
 	margin-bottom: 1em;
-    border: none;
-    height: 0.1em; 
-    background: linear-gradient(to left, transparent 0%, gray 30%, gray 50%, transparent 100%);
+	border: none;
+	height: 0.1em;
+	background: linear-gradient(to left, transparent 0%, gray 30%, gray 50%, transparent 100%);
 }
 
 main article.grid-groot hr:nth-child(2) {
 	width: 13em;
 	grid-row: 10;
 	grid-column: 1/8;
-    margin-right: 7em;
+	margin-right: 7em;
 	margin-bottom: 1em;
-    border: none;
-    height: 0.1em; 
-    background: linear-gradient(to left, transparent 0%, gray 30%, gray 50%, transparent 100%);
+	border: none;
+	height: 0.1em;
+	background: linear-gradient(to left, transparent 0%, gray 30%, gray 50%, transparent 100%);
 }
 
 main article.grid-groot img:first-of-type {
@@ -659,8 +680,10 @@ video {
 	margin-top: 1em;
 	grid-template-columns: 0.9em 8em 1em 12.3em 1.9em;
 	grid-template-rows: 1.1em 1em 1em 3em 1.8em;
-	opacity: 0; /* Initially hide the cards */
-	transform: translateY(50px); /* Initially move the cards down */
+	opacity: 0;
+	/* Initially hide the cards */
+	transform: translateY(50px);
+	/* Initially move the cards down */
 	transition: opacity 0.5s ease, transform 0.5s ease;
 }
 
@@ -733,7 +756,7 @@ section.titell-grid img {
 }
 
 section.titell-grid p {
-	color: --color-text-light-grey(161, 159, 159);
+	color: var(--color-text-light-grey);
 	font-size: 1em;
 	align-self: center;
 	justify-content: center;
@@ -855,13 +878,159 @@ section.second-navigation>h2:first-of-type {
 	grid-template-columns: 0.8em 6.6em 0.6em 3.35em 3.35em 0.6em 6.5em 0.7em;
 }
 
-.hamburger {
+.hamburger-icon {
 	grid-row: 3/4;
 	grid-column: 8;
 	width: 1.6em;
 	z-index: 2;
 	margin-top: 0.5em;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* CSS voor het standaard verborgen popup-menu */
+.popup-menu {
+	display: none;
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 21.57em;
+	height: 33em;
+	background-color: white;
+	z-index: 999;
+	margin-left: 0.7em;
+	margin-top: 7.3em;
+	overflow-y: auto;
+
+}
+
+/* Stijl voor de "MENU" tekst met een cursor die aangeeft dat het klikbaar is */
+.show-menu {
+	cursor: pointer;
+}
+
+/* Stijl voor het sluiten van het popup-menu (de "X") */
+.close-menu {
+	cursor: pointer;
+	font-size: 1.2em;
+	position: absolute;
+	right: 1.4em;
+}
+
+/* Voeg andere stijlen toe aan je menu-opties zoals nodig */
+.menu-options {
+	padding: 1em;
+}
+
+.dropdown-list {
+	display: none;
+}
+
+.menu-options ul {
+	padding-left: 0.5em;
+	border-bottom: 0.05em solid #bebebe;
+
+}
+
+.menu-options h2 {
+	font-weight: 500;
+	padding-left: 0.4em;
+	font-size: 1.25em;
+	margin-bottom: 1em;
+}
+
+.menu-options ul li {
+	list-style-type: none;
+	font-size: 0.75em;
+	font-weight: 500;
+	letter-spacing: 0.20em;
+	padding-bottom: 1.4em;
+	color: #343434;
+}
+
+.menu-options article:nth-child(1) {
+	display: flex;
+	justify-content: center;
+	padding: 0;
+	border-top: 0.05em solid #bebebe;
+	border-bottom: 0.05em solid #bebebe;
+}
+
+.menu-options article h2 {
+	font-size: 0.9em;
+	font-weight: 600;
+	padding-left: 0.8em;
+}
+
+.menu-options article h2:nth-child(2) {
+	font-size: 0.9em;
+	font-weight: 600;
+	padding-left: 0.9em;
+	color: #aaaaaa;
+}
+
+.menu-options article h2:nth-child(3) {
+	font-size: 0.9em;
+	font-weight: 600;
+	padding-left: 0.8em;
+	color: #aaaaaa;
+}
+
+.menu-options h2:nth-of-type(2) {
+	border-bottom: 0.02em solid #bebebe;
+	padding-bottom: 0.5em;
+	padding-bottom: 0.5em;
+
+}
+
+
+.menu-options h2:nth-of-type(4) {
+	border-bottom: 0.02em solid #bebebe;
+	margin-bottom: 1em;
+	padding-bottom: 0.5em;
+
+}
+
+.menu-options h2:nth-of-type(3) {
+	border-bottom: 0.02em solid #bebebe;
+	margin-bottom: 1em;
+	padding-bottom: 0.5em;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 .alt-pages h4 {
@@ -960,7 +1129,7 @@ section.second-navigation>h2:first-of-type {
 	padding: 0;
 	background: white;
 	border: 0.2em solid white;
-	color:white;
+	color: white;
 }
 
 .grid-intro button:nth-child(5) {
@@ -1057,7 +1226,7 @@ main div.timetable-state section:nth-child(1) {
 	display: grid;
 	grid-template-columns: 1.5em 20.5em 1.5em;
 	grid-template-rows: 1.5em;
-	
+
 }
 
 main div.timetable-state section:nth-child(1) div {
@@ -1221,78 +1390,245 @@ section:nth-child(2) .timeline-grid article:nth-child(2) {
 
 
 .bottom-nav {
-    position: fixed;
-    bottom: 0;
-    left: 0;
-    width: 100%;
-    background-color: rgba(23, 23, 23, 0.95); 
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    padding: 0.3em;
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	background-color: rgba(23, 23, 23, 0.95);
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	padding: 0.3em;
 }
 
 
 .bottom-nav a {
-    text-decoration: none;
-    color: white;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    font-size: 0.8em;
+	text-decoration: none;
+	color: white;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	font-size: 0.8em;
 	font-weight: 500;
 }
 
 .bottom-nav a:nth-child(2) {
 	text-decoration: none;
-    color: grey;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    font-size: 0.8em;
+	color: grey;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	font-size: 0.8em;
 	font-weight: 500;
 }
 
 .bottom-nav a:nth-child(3) {
 	text-decoration: none;
-    color: grey;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    font-size: 0.8em;
+	color: grey;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	font-size: 0.8em;
 	font-weight: 500;
 }
 
 .bottom-nav a:nth-child(4) {
 	text-decoration: none;
-    color: grey;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    font-size: 0.8em;
+	color: grey;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	font-size: 0.8em;
 	font-weight: 500;
 }
 
 
 .bottom-nav a img {
-    width: 1.6em;
+	width: 1.6em;
 	margin: 0;
 	margin-bottom: 0.5em;
-
-
 }
 
 
-.bottom-nav a img:nth-child(3) {
-    width: 1.4em;
+
+
+
+.main-display h2:first-child {
+	color: rgb(222, 222, 222);
+	font-size: 0.75em;
+	font-weight: 500;
+	letter-spacing: 0.1em;
+	text-align: center;
+	margin-top: 2.5em;
+}
+
+
+footer {
+	background-color: black;
+}
+
+.main-display ul {
+	color: white;
+	list-style-type: none;
+	padding-left: 1em;
+	padding-right: 1em;
+}
+
+.main-display ul li p {
+	font-size: 1.2em;
+}
+
+.main-display li {
+	display: flex;
+	justify-content: space-between;
+	border-bottom: 0.07em solid rgb(76, 76, 76);
+}
+
+.main-display ul li button {
+	background-color: rgb(0, 0, 0);
+	border: none;
+}
+
+.main-display ul li img {
+	padding: 0;
+	border: 0;
 	margin: 0;
-	margin-bottom: 0.5em;
+}
 
+.tml-footer {
+	width: 17em;
+	margin-left: 3em;
+}
+
+.icons-footer ul {
+	display: flex;
+	align-items: center;
+}
+
+.icons-footer li {
+	margin-right: 1.2em;
 
 }
 
-
-.bottom-nav a:hover {
-    background-color: rgba(100, 100, 100, 0.8); 
+.final-footer {
+	font-size: 0.6em;
+	color: grey;
+	letter-spacing: 0.3em;
+	padding-bottom: 10em;
 }
 
+.final-footer ul {
+	padding-left: 0;
+}
+
+
+.final-footer p {
+	text-align: center;
+}
+
+
+.final-footer li {
+	list-style-type: none;
+}
+
+.tml-footer2 {
+	width: 17em;
+	margin-left: 3em;
+	margin-top: 4em;
+}
+
+.footer2 button {
+	color: black;
+	align-self: center;
+	padding-top: 1.5em;
+	padding-bottom: 1.5em;
+	padding-left: 2em;
+	padding-right: 2em;
+	font-weight: 500;
+	margin-left: 8.3em;
+	margin-top: 1.8em;
+	letter-spacing: 0.1em;
+}
+
+.icons-footer2 ul {
+	display: flex;
+	align-items: center;
+
+}
+
+.icons-footer2 li {
+	margin-right: 1.2em;
+}
+
+.icons-footer2 {
+	border-top: 0.03em solid rgb(82, 82, 82);
+	border-bottom: 0.03em solid rgb(82, 82, 82);
+	margin-top: 2em;
+}
+
+.summary-footer {
+	margin-left: 1em;
+	margin-bottom: 20em;
+}
+
+details {
+	color: white;
+	display: flex;
+	flex-direction: column;
+	border-bottom: 0.03em solid rgb(82, 82, 82);
+}
+
+summary {
+	color: white;
+	margin-left: 1.3em;
+	font-size: 0.75em;
+	font-weight: 600;
+	letter-spacing: 0.19em;
+	margin-top: 1em;
+	margin-bottom: 1em;
+	
+}
+
+
+
+details a {
+	margin-left: 1.3em;
+	text-decoration: none;
+	color: rgb(168, 168, 168);
+	font-size: 0.8em;
+	margin-top: 1.2em;
+	margin-bottom: 1.2em;
+}
+
+.summary-footers p{
+
+color: rgb(189, 189, 189);
+font-size: 0.75em;
+font-weight: 500;
+letter-spacing: 0.1em;
+text-align: center;
+margin-top: 2.5em;
+}
+
+footer {
+	padding-bottom:5em;
+}
+
+.apps{
+	display:flex;
+	justify-content: center;
+
+}
+
+.apps img:nth-of-type(1){
+	width: 8em;
+
+	margin-top: -2em;
+}
+
+.apps img:nth-of-type(2){
+	height: 4em;
+	
+	
+	
+}

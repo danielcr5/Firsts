@@ -6,94 +6,128 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Line Up</title>
     <link href="styles/style.css" rel="stylesheet">
+    <link rel="icon" type="image/svg+xml" href="images/tomorrowland-logo1.png">
+
 
 </head>
 
-
+<!-- bron: MDN  -->
+<!-- bron: Chat-GPT  -->
 <body class="page2">
-
     <nav>
-		<a class="in" href="index.html"> <img src="images/asset9.svg" alt="logo tommorowland" > </a>
-		<div class="menu-container">
-			<img src="images/arrow-down.svg" alt="Menu" class="menu-icon">
-			<ul class="menu">
-			  <li><a href="#">BELGIUM</a></li>
-			  <hr>
-			  <li><a href="#">WINTER</a></li>
-			  <hr>
-			  <li><a href="#">BRASIL</a></li>
-			  <hr>
-			  <li><a href="#">EVENTS</a></li>
-			  <hr>
-			  <li><a href="#">STORE</a></li>
-			  <hr>
-			  <li><a href="#">FAQ</a></li>
-			  <hr>
-			  <li><a href="#">MORE</a></li>
-			  <hr>
+        <a class="in" href="index.html"> <img src="images/asset9.svg" alt="logo tommorowland"> </a>
+        <div class="menu-container">
+            <img src="images/arrow-down.svg" alt="Menu" class="menu-icon">
+            <section class="menu">
+                <ul>
+                    <li><a href="#">BELGIUM</a></li>
 
-			  <section class="social-icons">  
-				<ul> 
-					<li> <a href=""> <img src="images/Frame8.1.svg" alt="socialmedia icoontjes"></a></li>
-					<li> <a href=""> <img src="images/Frame7.1.svg" alt="socialmedia icoontjes"></a></li>
-					<li> <a href=""> <img src="images/Frame10.1.svg" alt="socialmedia icoontjes"></a></li>
-					<li> <a href=""> <img src="images/Frame9.1.svg" alt="socialmedia icoontjes"></a></li>
-					<li> <a href=""> <img src="images/Frame6.1.svg" alt="socialmedia icoontjes"></a></li>
-					<li> <a href=""> <img src="images/Frame11.1.svg" alt="socialmedia icoontjes"></a></li>
-				</ul>
-			</section>
-			</ul>
+                    <li><a href="#">WINTER</a></li>
 
+                    <li><a href="#">BRASIL</a></li>
 
-			<!-- bottom bar -->
-			<section class="bottom-nav">
-				<a href="home">
-					<img src="images/asset10-home.svg" alt="Home Icon">
-					<span>Home</span>
-				</a>
-				<a href="one-world-radio">
-					<img src="images/asset11-radio.svg" alt=" One World Radio">
-					<span>One World Radio</span>
-				</a>
-				<a href="line-up.html">
-					<img src="images/asset9.svg" alt="Icon 3">
-					<span>Events</span>
-				</a>
-				<a href="#page4">
-					<img src="images/asset13-video.svg" alt="Icon 4">
-					<span>Video</span>
-				</a>
-			</section>
+                    <li><a href="#">EVENTS</a></li>
+
+                    <li><a href="#">STORE</a></li>
+
+                    <li><a href="#">FAQ</a></li>
+
+                    <li><a href="#">MORE</a></li>
 
 
 
-			<div class="social-icons">
-			  <!-- Add your social media icons here -->
-			</div>
-		  </div>
-		<img src="images/play-button.png" alt="play button">
-		<button> RADIO </button>
-		<button> MY ACCOUNT </button>
-		<button class="dark-mode-toggle">DARK MODE</button>
-	</nav>
+                </ul>
 
+                <section class="social-icons">
+                    <ul>
+                        <li> <a href=""> <img src="images/Frame8.1.svg" alt="socialmedia icoontjes"></a></li>
+                        <li> <a href=""> <img src="images/Frame7.1.svg" alt="socialmedia icoontjes"></a></li>
+                        <li> <a href=""> <img src="images/Frame10.1.svg" alt="socialmedia icoontjes"></a></li>
+                        <li> <a href=""> <img src="images/Frame9.1.svg" alt="socialmedia icoontjes"></a></li>
+                        <li> <a href=""> <img src="images/Frame6.1.svg" alt="socialmedia icoontjes"></a></li>
+                        <li> <a href=""> <img src="images/Frame11.1.svg" alt="socialmedia icoontjes"></a></li>
+                    </ul>
+                </section>
+            </section>
+
+
+            <!-- bottom bar -->
+            <section class="bottom-nav">
+                <a href="home">
+                    <img src="images/asset10-home.svg" alt="Home Icon">
+                    <span>Home</span>
+                </a>
+                <a href="one-world-radio">
+                    <img src="images/asset11-radio.svg" alt=" One World Radio">
+                    <span>One World Radio</span>
+                </a>
+                <a href="line-up.html">
+                    <img src="images/asset9.svg" alt="Icon 3">
+                    <span>Events</span>
+                </a>
+                <a href="#page4">
+                    <img src="images/asset13-video.svg" alt="Icon 4">
+                    <span>Video</span>
+                </a>
+            </section>
+            <div class="social-icons">
+            </div>
+        </div>
+        <img src="images/play-button.png" alt="play button">
+        <button> RADIO </button>
+        <button class="dark-mode-toggle">DARK MODE</button>
+    </nav>
+
+
+    <!-- bron: MDN  -->
+<!-- bron: W3schools -->
 
     <header class="alt-pages">
 
-        <!-- wit balkje onder eerste navigatie -->
         <section class="second-navigation">
-            <!-- div is voor styling van de witte box -->
             <div>
             </div>
             <img src="images/tomorrowland-logo1.png" alt="tommorowland logo">
             <h2> BELGIUM </h2>
-            <h3> MENU </h3>
-            <!-- het is absoluut nie gelukt om deze met class te selecteren -->
-            <img class="hamburger" src="images/hamburg.svg" alt="hamburger menu">
+            <h3> <span class="show-menu">MENU</span> </h3>
+
+            <img class="hamburger-icon" src="images/hamburg.svg" alt="hamburger menu">
+        </section>
+
+        <!-- Dit is dan het popup-menu dat standaard verborgen is dus KOMT niet tevoorschijnn -->
+        <section class="popup-menu">
+            <div class="menu-header">
+                <span class="close-menu">X</span>
+            </div>
+
+            <article class="menu-options">
+
+                <article>
+                    <h2> EN </h2>
+                    <h2> NL </h2>
+                    <h2> FR </h2>
+                </article>
+
+                <h2> Festival</h2>
+                <ul>
+                    <li> WELCOME </li>
+                    <li> PRACTICAL</li>
+                    <li> TICKETS </li>
+                    <li> LINE-UP </li>
+                    <li> ADSCENDO </li>
+                </ul>
+
+                <h2> DreamVille </h2>
+                <h2> Global Journey </h2>
+                <h2> FAQ </h2>
+                <h2> My Tomorrowland </h2>
+
+            </article>
         </section>
 
         <h4> LINE-UP </h4>
-
+<!-- bron: MDN  -->
+<!-- bron: W3schools -->
         <section class="grid-intro">
             <button> TIMETABLE </button>
             <button> STAGES </button>
@@ -110,11 +144,12 @@
     </header>
 
 
-    <!-- Is het de bedoeling om elke knop werkend te maken
-     of gaat het om het idee -->
-
     <!-- time bars -->
 
+<!-- bron: MDN  -->
+<!-- bron: W3schools -->
+<!-- bron: Danny & Studenten assinstenten, SEP en MIKE  -->
+<!-- bron: Chat-GPT  -->
 
     <main>
         <div class="timetable-state">
@@ -129,6 +164,7 @@
         <div class=" timeline-grid-wrapper">
 
             <section class="indicators">
+                <h2>.</h2>
                 <div>
                     <p> 12:00 </p>
                 </div>
@@ -274,7 +310,8 @@
                 </div>
             </section>
 
-            <section class="timeline-grid" class="time2">
+            <section class="timeline-grid">
+                <h2>.</h2>
                 <article>
                     <h3> MAZI MERAKI </h3>
                     <p> 12:00 - 13:30 </p>
@@ -297,7 +334,8 @@
                 </div>
             </section>
 
-            <section class="timeline-grid" class="time2">
+            <section class="timeline-grid">
+                <h2>.</h2>
                 <article>
                     <h3> MAZI MERAKI </h3>
                     <p> 12:00 - 13:30 </p>
@@ -318,28 +356,76 @@
         </div>
 
 
-
-
-
-        <section class="big-list">
-            <h2> Mainstage </h2>
-            <ul>
-
-                <li>
-                    <h2> Mc Stretch </h2>
-                </li>
-                <li>
-                    <p> 12:00 - 14:30 </p>
-                </li>
-
-                <li>
-                    <h2> Anfisa Latyago </h2>
-                </li>
-                <li> 14:30 - 15:30 </li>
-        </section>
-        </ul>
-
     </main>
+
+    <footer>
+
+        <section class="main-display">
+            <h2> YOU MIGHT LIKE THIS </h2>
+            <ul>
+                <li>
+                    <p> Friendship Mixes </p> <button> <img src="images/arrow-button.jpg" alt="button"></button>
+                </li>
+
+                <li>
+                    <p> News & Music </p> <button> <img src="images/arrow-button.png" alt="button"></button>
+                </li>
+
+                <li>
+                    <p> Tommorowland Store </p> <button> <img src="images/arrow-button.png" alt="button"></button>
+                </li>
+
+                <li>
+                    <p> One World Radio </p> <button> <img src="images/arrow-button.png" alt="button"></button>
+                </li>
+            </ul>
+        </section>
+
+        <img class="tml-footer" src="images/tml-footer.png" alt="tml footer">
+
+
+        <section class="icons-footer">
+
+            <ul>
+                <li> <a href=""> <img src="images/Frame8.2.svg" alt="socialmedia icoontjes"></a></li>
+                <li> <a href=""> <img src="images/Frame7.2.svg" alt="socialmedia icoontjes"></a></li>
+                <li> <a href=""> <img src="images/Frame10.2.svg" alt="socialmedia icoontjes"></a></li>
+                <li> <a href=""> <img src="images/Frame9.2.svg" alt="socialmedia icoontjes"></a></li>
+                <li> <a href=""> <img src="images/Frame6.2.svg" alt="socialmedia icoontjes"></a></li>
+                <li> <a href=""> <img src="images/Frame11.2.svg" alt="socialmedia icoontjes"></a></li>
+            </ul>
+        </section>
+
+
+        <section class="final-footer">
+            <ul>
+                <li>
+                    <p> c 2023 TOMMOROWLAND </p>
+                </li>
+
+                <li>
+                    <p> WEBSITE TERMS OF USE </p>
+                </li>
+
+                <li>
+                    <p> PRIVACY POLICY </p>
+                </li>
+
+                <li>
+                    <p> TERMS AND CONDITIONS </p>
+                </li>
+
+                <li>
+                    <p> FAQ & CONTACT </p>
+                </li>
+
+            </ul>
+        </section>
+
+    </footer>
+
+
+
 
     <script defer src="scripts/script.js"></script>
 
